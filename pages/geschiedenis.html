@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De geschiedenis van Games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+   >
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preload" href="../img/timeline_2.jpg" as="image">
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="../index.html" class="logo"
+         ><img src="../img/logo-white.png" alt="logo" class="logo" id="logo"
+       ></a>
+        <ul class="nav-links">
+          <li>
+            <a href="geschiedenis.html" class="nav-link-active">Geschiedenis</a>
+          </li>
+          <li><a href="quiz.html">Retro quiz</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </nav>
+    <!-- Mobiel menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li>
+          <a href="geschiedenis.html">Geschiedenis</a>
+        </li>
+        <li><a href="quiz.html">Retro Quiz</a></li>
+      </ul>
+    </div>
+    <header class="header-banner banner-geschiedenis">
+      <div class="overlay"></div>
+      <div class="banner-container">
+        <h1>De Geschiedenis van Videogames: Een Chronologische Verkenning</h1>
+        <p>
+          Deze tijdlijn biedt een overzicht van de geschiedenis van videogames,
+          van de bescheiden beginjaren tot de bloeiende industrie van vandaag.
+          Ontdek de mijlpalen, iconische consoles en invloedrijke gebeurtenissen
+          die de gamingwereld hebben gevormd zoals we die nu kennen. Laat je
+          meevoeren door de evolutie van gaming en ontdek de verhalen achter de
+          pixels.
+        </p>
+      </div>
+    </header>
+    <div class="container">
+      <section id="timeline">
+        <!-- Tijdlijn sectie -->
+        <h2>Tijdlijn</h2>
+        <div id="timeline-container" class="timeline">
+          <!-- Hier wordt de dynamische tijdlijn ingevoegd met JavaScript -->
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 De geschiedenis van Videogames</p>
+    </footer>
+    <div id="popup-container"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="../js/gsap-animaties.js"></script>
+    <script src="../js/timeline.js"></script>
+    <script src="../js/mobile-menu.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
